@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="elephant">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <xacro:include filename="$(find mycobot_description)/urdf/mycobot_280_pi/mycobot_280_pi.urdf" />
+
+    <xacro:include filename="elephant.ros2_control.xacro" />
+
+
+    <xacro:elephant_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>
