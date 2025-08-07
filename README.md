@@ -33,7 +33,7 @@ The **myCobot 280 Pi 2023** is a lightweight 6DOF manipulator with an in-built R
     <img src="http://img.youtube.com/vi/sY7ScSSkyfU/0.jpg" alt="Newest Addition To Our Tech Stack! MyCobot 280 Pi From @ElephantRobotics"/>
   </a>
 </p>
----
+
 
 ## Performance & Structural Parameters
 
