@@ -298,5 +298,5 @@ ros2 launch mycobot_280_moveit2 demo.launch.py
   <img src="documentation/image-4.png" alt="MoveIt2 Demo" width="700"/>
 </p>
 
-Familiarise yourself with the moveit2 simulation before it is tested on the actual robot.
+Familiarise yourself with the moveit2 simulation before it is tested on the actual robot. This can be done by varying the sliders to see how the robot moves and then testing it with the actual robot.
 
