@@ -28,9 +28,7 @@
 
 The **myCobot 280 Pi 2023** is a lightweight 6DOF manipulator with an in-built Raspberry Pi for communication and running ROS2 nodes.
 
-<p align="center">
-  <a href="http://www.youtube.com/watch?v=sY7ScSSkyfU" target="_blank">YouTube Video</a>
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sY7ScSSkyfU?si=M5usRGu2ZtHmL8Lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
