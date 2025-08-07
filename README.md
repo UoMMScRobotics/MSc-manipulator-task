@@ -157,7 +157,7 @@ The robot arm uses standard DH parameters for kinematic modeling:
 4. **ROS2 Environment Setup:**  
    On the arm, run:
    ```bash
-   source /opt/ros/jazzy/setup.bash
+   source /opt/ros/galactic/setup.bash
    source colcon_ws/install/setup.bash
    nano ~/.bashrc
    ```
@@ -189,7 +189,7 @@ nano ~/start_mycobot.sh
 Paste:
 ```bash
 #!/bin/bash
-source /opt/ros/jazzy/setup.bash
+source /opt/ros/galactic/setup.bash
 source ~/colcon_ws/install/setup.bash
 ros2 run mycobot_280pi slider_control
 ```
