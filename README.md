@@ -166,7 +166,11 @@ The robot arm uses standard DH parameters for kinematic modeling:
    export ROS_DOMAIN_ID=YOUR_GROUP_NUMBER
    ```
    Save and exit nano (`Ctrl+O`, `Enter`, `Ctrl+X`).
-
+   After saving, apply the changes by running:
+   ```bash
+   source ~/.bashrc
+   ```
+   This ensures your environment variables are set for the current session.
 5. **Test Servos:**  
    Launch the slider test:
    ```bash
