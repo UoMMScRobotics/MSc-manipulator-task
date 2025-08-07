@@ -28,7 +28,6 @@
 
 The **myCobot 280 Pi 2023** is a lightweight 6DOF manipulator with an in-built Raspberry Pi for communication and running ROS2 nodes.
 
-**Unboxing Video:**  
 [![Newest Addition To Our Tech Stack! MyCobot 280 Pi From @ElephantRobotics](http://img.youtube.com/vi/sY7ScSSkyfU/0.jpg)](http://www.youtube.com/watch?v=sY7ScSSkyfU "Video Title")
 ---
 
@@ -85,7 +84,7 @@ The robot arm uses standard DH parameters for kinematic modeling:
 ## Technical Diagram
 
 <p align="center">
-  <img src="image.png" alt="myCobot 280 Pi 2023 Technical Diagram" width="500"/>
+  <img src="documentation/image.png" alt="myCobot 280 Pi 2023 Technical Diagram" width="500"/>
 </p>
 
 ---
@@ -97,32 +96,32 @@ The robot arm uses standard DH parameters for kinematic modeling:
 1. **Base Plate Preparation:**  
    Place four clips in the corners of the base plate as shown.  
    <p align="center">
-     <img src="Image1.jpeg" alt="Base Plate Clips" width="350"/>
+     <img src="documentation/Image1.jpeg" alt="Base Plate Clips" width="350"/>
    </p>
 
 2. **Mount Manipulator:**  
    Mount the manipulator on the base plate. Hold the manipulator during this process; the base plate alone cannot support its weight. Listen for a "click" when mounted.  
    <p align="center">
-     <img src="Image2.jpeg" alt="Mount Manipulator" width="350"/>
-     <img src="Image3.jpeg" alt="Mount Manipulator 2" width="350"/>
+     <img src="documentation/Image2.jpeg" alt="Mount Manipulator" width="350"/>
+     <img src="documentation/Image3.jpeg" alt="Mount Manipulator 2" width="350"/>
    </p>
 
 3. **Clamp to Table:**  
    Clamp the manipulator to the table before operation.  
    <p align="center">
-     <img src="Image4.jpeg" alt="Clamp" width="350"/>
+     <img src="documentation/Image4.jpeg" alt="Clamp" width="350"/>
    </p>
 
 4. **Connect Peripherals:**  
    For the first boot, connect a keyboard, mouse, and microHDMI cable.  
    <p align="center">
-     <img src="Image5_1.jpeg" alt="Connect Peripherals" width="350"/>
+     <img src="documentation/Image5_1.jpeg" alt="Connect Peripherals" width="350"/>
    </p>
 
 5. **Power On:**  
    Ensure markings are aligned, then power on the robot. The servos will activate after a few seconds.  
    <p align="center">
-     <img src="Image6.jpeg" alt="Power On" width="350"/>
+     <img src="documentation/Image6.jpeg" alt="Power On" width="350"/>
    </p>
 
 ---
@@ -132,13 +131,13 @@ The robot arm uses standard DH parameters for kinematic modeling:
 1. **Connect to Network:**  
    Connect the arm's Raspberry Pi to Wi-Fi or Ethernet.  
    <p align="center">
-     <img src="Image7.png" alt="Network" width="500"/>
+     <img src="documentation/Image7.png" alt="Network" width="500"/>
    </p>
 
 2. **Get IP Address:**  
    Check `wlan0` (Wi-Fi) or `eth0` (Ethernet) for the IP address (e.g., 192.168.1.193).  
    <p align="center">
-     <img src="Image8.png" alt="IP Address" width="500"/>
+     <img src="documentation/Image8.png" alt="IP Address" width="500"/>
    </p>
 
 3. **SSH Access:**  
@@ -148,7 +147,7 @@ The robot arm uses standard DH parameters for kinematic modeling:
    ```
    Password: `Elephant` (case sensitive)  
    <p align="center">
-     <img src="image-1.png" alt="SSH" width="700"/>
+     <img src="documentation/image-1.png" alt="SSH" width="700"/>
    </p>
 
 4. **ROS2 Environment Setup:**  
@@ -170,7 +169,7 @@ The robot arm uses standard DH parameters for kinematic modeling:
    ros2 launch mycobot_280pi slider_control.launch.py
    ```
    <p align="center">
-     <img src="image-2.png" alt="Slider Test" width="700"/>
+     <img src="documentation/image-2.png" alt="Slider Test" width="700"/>
    </p>
 
 ---
@@ -237,7 +236,7 @@ Check service status:
 systemctl status mycobot.service
 ```
 <p align="center">
-  <img src="image-3.png" alt="Slider Test" width="700"/>
+  <img src="documentation/image-3.png" alt="Slider Test" width="700"/>
 </p>
 
 ---
@@ -288,7 +287,7 @@ After saving, run `source ~/.bashrc` or open a new terminal to apply the change.
 ros2 launch mycobot_280_moveit2 demo.launch.py
 ```
 <p align="center">
-  <img src="image-4.png" alt="MoveIt2 Demo" width="700"/>
+  <img src="documentation/image-4.png" alt="MoveIt2 Demo" width="700"/>
 </p>
 
 Familiarise yourself with the moveit2 simulation before it is tested on the actual robot.
