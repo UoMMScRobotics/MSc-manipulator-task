@@ -88,7 +88,7 @@ The robot arm uses standard DH parameters for kinematic modeling:
 ## Technical Diagram
 
 <p align="center">
-  <img src="documentation/image.png" alt="myCobot 280 Pi 2023 Technical Diagram" width="500"/>
+  <img src="documentation/image.png" alt="myCobot 280 Pi Technical Diagram" width="500"/>
 </p>
 
 ---
