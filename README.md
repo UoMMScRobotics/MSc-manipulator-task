@@ -1,4 +1,4 @@
-# myCobot 280 Pi 2023 Documentation
+# myCobot 280 Pi Documentation
 
 ## Table of Contents
 1. [Key Specifications](#key-specifications)
@@ -37,7 +37,7 @@ The **myCobot 280 Pi 2023** is a lightweight 6DOF manipulator with an in-built R
 
 ## Performance & Structural Parameters
 
-- **Model:** myCobot 280 Raspberry Pi 2023
+- **Model:** myCobot 280 Raspberry Pi
 - **Operating System:** Ubuntu Mate 20.04
 - **Microprocessor:** Raspberry Pi 4B (1.5GHz quad-core)
 - **Degrees of Freedom:** 6
