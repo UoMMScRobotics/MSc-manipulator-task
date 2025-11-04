@@ -1,5 +1,8 @@
 # myCobot 280 Pi Documentation
 
+> [!CAUTION]
+> This guide uses Galatic and Humble.
+
 ## Table of Contents
 1. [Key Specifications](#key-specifications)
 2. [Performance & Structural Parameters](#performance--structural-parameters)
